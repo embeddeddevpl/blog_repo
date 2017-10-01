@@ -1,10 +1,10 @@
 /*
- * Autor: £ukasz £aguna
+ * Autor: ≈Åukasz ≈Åaguna
  * E-mail: kontakt@embeddeddev.pl
  * www.EmbeddedDev.pl
  *
- * Obs≥uga interfejsu UART w mikrokontrolerach w oparciu o przerwania,
- * korzystajπc z bufora ko≥owego (cyklicznego)
+ * Obs≈Çuga interfejsu UART w mikrokontrolerach w oparciu o przerwania,
+ * korzystajƒÖc z bufora ko≈Çowego (cyklicznego)
  *
  * MCU: STM32F103
  *
