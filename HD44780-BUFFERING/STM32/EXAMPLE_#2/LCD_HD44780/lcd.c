@@ -197,21 +197,3 @@ void LCD_Init(void)
 	lcd_write_cmd( LCDC_ENTRY_MODE | LCD_EM_SHIFT_CURSOR | LCD_EM_RIGHT );
 
 }
-
-/* Dodatkowe funkcje */
-
-void lcd_str(char *text)
-{
-	while(*text)
-		lcd_char(*text++);
-
-}
-
-void lcd_str_XY(uint8_t x, uint8_t y, char *text)
-{
-	lcd_locate(x,y);
-
-	while(*text)
-		lcd_char(*text++);
-
-}

@@ -83,8 +83,6 @@
 void LCD_Init(void);
 void lcd_locate(uint8_t x, uint8_t y);
 void lcd_char(char data);
-void lcd_str(char * text);
-void lcd_str_XY(uint8_t x, uint8_t y, char * text);
 
 uint8_t lcd_readFlag(void);
 
