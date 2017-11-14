@@ -58,6 +58,8 @@ void lcd_refresh(void)
 
 	for(uint8_t y=0; y<LCD_ROWS; y++)
 	{
+		lcd_locate( 0, y );
+
 		for(uint8_t x=0; x<LCD_COLS; x++)
 		{
 
@@ -72,9 +74,9 @@ void lcd_refresh(void)
 			else
 				locate_flag = 0;
 
-			}
-
 		}
+
+	}
 }
 
 /* Additional functions */
