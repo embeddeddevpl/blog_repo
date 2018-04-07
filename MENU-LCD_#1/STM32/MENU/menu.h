@@ -17,7 +17,7 @@ typedef struct menu_struct menu_t;
 
 struct menu_struct {
 
-	char * name;
+	const char * name;
 	menu_t * next;
 	menu_t * prev;
 	menu_t * child;
